@@ -12,7 +12,7 @@
     "url": "https://github.com/steida"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=0.8.0"
   },
   "scripts": {
     "test": "mocha"
@@ -26,7 +26,7 @@
     "gulpplugin"
   ],
   "dependencies": {
-    "gulp-util": "^2.2.14",
+    "gulp-util": "~2.1.4",
     "through": "^2.3.4",
     "temp-write": "^0.3.0"
   },

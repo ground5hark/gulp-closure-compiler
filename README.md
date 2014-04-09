@@ -1,14 +1,14 @@
-# [gulp](http://gulpjs.com)-closure-compiler
+# [gulp](http://gulpjs.com)-closure-compiler-old
 [![Build Status](https://secure.travis-ci.org/steida/gulp-closure-compiler.png?branch=master)](http://travis-ci.org/steida/gulp-closure-compiler) [![Dependency Status](https://david-dm.org/steida/gulp-closure-compiler.png)](https://david-dm.org/steida/gulp-closure-compiler) [![devDependency Status](https://david-dm.org/steida/gulp-closure-compiler/dev-status.png)](https://david-dm.org/steida/gulp-closure-compiler#info=devDependencies)
 
-> Gulp plugin for Google Closure Compiler
+> Gulp plugin for Google Closure Compiler ([forked](https://github.com/steida/gulp-closure-compiler) to be compatible with `node` >= 0.8.x)
 
 *Issues with the output or Java should be reported on the Closure Compiler [issue tracker](https://code.google.com/p/closure-compiler/issues/list).*
 
 ## Install
 
 ```
-npm install --save-dev gulp-closure-compiler
+npm install --save-dev gulp-closure-compiler-old
 ```
 
 ## Example
@@ -19,7 +19,7 @@ Simple optimizations for classic minifying.
 
 ```js
 var gulp = require('gulp');
-var closureCompiler = require('gulp-closure-compiler');
+var closureCompiler = require('gulp-closure-compiler-old');
 
 gulp.task('default', function() {
   gulp.src('src/*.js')
@@ -37,7 +37,7 @@ Advanced optimizations is much more aggressive. It's aimed for libraries like [C
 
 ```js
 var gulp = require('gulp');
-var closureCompiler = require('gulp-closure-compiler');
+var closureCompiler = require('gulp-closure-compiler-old');
 
 gulp.task('default', function() {
   gulp.src('src/*.js')

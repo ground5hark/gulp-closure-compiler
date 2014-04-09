@@ -41,8 +41,8 @@ module.exports = function(opt, execFile_opt) {
   };
 
   function bufferContents(file) {
-    if (file.isNull()) return;
-    if (file.isStream()) {
+    if (file.contents == null) return;
+    if (gutil.isStream(file.contents)) {
       return this.emit('error',
         new gutil.PluginError(PLUGIN_NAME, 'Streaming not supported'));
     }
