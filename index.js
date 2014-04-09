@@ -3,7 +3,7 @@ var child_process = require('child_process');
 var fs = require('fs');
 var gutil = require('gulp-util');
 var path = require('path');
-var tempWrite = require('temp-write');
+var tempWrite = require('temp-write-old');
 var through = require('through');
 
 const PLUGIN_NAME = 'gulp-closure-library';
