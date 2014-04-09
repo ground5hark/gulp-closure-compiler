@@ -28,7 +28,7 @@
   "dependencies": {
     "gulp-util": "~2.1.4",
     "through": "~2.3.4",
-    "temp-write": "~0.3.0"
+    "temp-write-old": "~0.3.0"
   },
   "devDependencies": {
     "mocha": "*",
