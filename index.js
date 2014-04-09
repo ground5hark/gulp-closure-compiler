@@ -7,6 +7,9 @@ var tempWrite = require('temp-write-old');
 var through = require('through');
 
 const PLUGIN_NAME = 'gulp-closure-library';
+gutil.PluginError = gutil.PluginError || function PluginError(name, msg) {
+  return new Error('[' + name + ':error] - ' + msg);
+}
 
 module.exports = function(opt, execFile_opt) {
   opt = opt || {};
