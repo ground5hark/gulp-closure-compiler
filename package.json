@@ -1,6 +1,6 @@
 {
   "name": "gulp-closure-compiler-old",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Gulp plugin for Google Closure Compiler",
   "license": "MIT",
   "repository": {
@@ -28,7 +28,7 @@
   "dependencies": {
     "gulp-util": "~2.1.4",
     "through": "~2.3.4",
-    "temp-write-old": "~0.3.0"
+    "temp-write-old": "~0.3.1"
   },
   "devDependencies": {
     "mocha": "*",
