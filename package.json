@@ -1,11 +1,11 @@
 {
-  "name": "gulp-closure-compiler",
+  "name": "gulp-closure-compiler-old",
   "version": "0.2.0",
   "description": "Gulp plugin for Google Closure Compiler",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/steida/gulp-closure-compiler.git"
+    "url": "https://github.com/ground5hark/gulp-closure-compiler-old.git"
   },
   "author": {
     "name": "Daniel Steigerwald",
